@@ -1,0 +1,23 @@
+# Daftar Senjata Inti
+asyncio
+redis
+psutil
+
+# Senjata untuk Cloud & API
+supabase
+requests
+aiohttp
+
+# Senjata Keamanan & Otentikasi
+pyjwt
+bcrypt
+cryptography
+
+# Senjata AI & Machine Learning
+scikit-learn
+numpy
+pandas
+
+# Senjata Cloud Lanjutan
+google-cloud-functions
+boto3
