@@ -13,9 +13,9 @@ class DesireEngine:
         self.logger = logging.getLogger(__name__)
         self.supabase_url = os.getenv("SUPABASE_URL")
         self.supabase_key = os.getenv("SUPABASE_KEY")
-        self.github_user = os.getenv("GITHUB_USER")
-        self.github_repo = os.getenv("GITHUB_REPO")
-        self.github_token = os.getenv("GITHUB_TOKEN")
+        self.github_user = os.getenv("PROJECT_GITHUB_USER")
+        self.github_repo = os.getenv("PROJECT_GITHUB_REPO")
+        self.github_token = os.getenv("PROJECT_GITHUB_TOKEN")
         
         if not all([self.supabase_url, self.supabase_key, self.github_user, self.github_repo, self.github_token]):
             raise ValueError("Konfigurasi Supabase/GitHub tidak ditemukan di file .env!")
